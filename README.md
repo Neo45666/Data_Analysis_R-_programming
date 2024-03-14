@@ -153,17 +153,44 @@ The above graphs shows that this model validates all the assumptions of multiple
 
 ![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/3ee7c966-1996-4099-be83-e3b21db1d3c2)
 
+Show the boostrap histogram
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/68eb2558-7ad5-4b78-9fb9-bb6e85564573)
 
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/f5be4787-8847-4ecb-ba91-84fac4143ef4)
 
+# Multivariate Relationship 
 
+Model with potential explanatory variables
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/4c8208f4-3be7-44fe-b0c6-bc6421601f22)
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/6a1f3179-d7c1-4f55-a4f7-45f0c404d8bf)
 
+The small general p-value indicates statistical significance for the explanatory variables, with the adjusted R-squared showing a slight increase, implying that collectively, the independent variables account for 45% of the variance in rented e-scooter counts.
 
+The overall p-value for the model is highly significant (2.2e-16), indicating the presence of statistically significant coefficients. Specifically, "Hour", "Distance", "Dew Point Temperature", "Solar Radiation", and "Rainfall" exhibit statistical significance.
 
+However, "Distance", "Temperature", "Wind Speed", and "Visibility" are found to lack statistical significance, suggesting that they do not contribute to the variation in e-scooter rentals within the model.
 
+## Model evaluation
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/d9a982f4-aceb-4290-9a64-50c5a2fef7aa)
+The model all the explanatory variable validates the assumption for multiple regression.
 
+## Model simplification using Akaike Information Criterion (AIC)
+
+It is a measure used in statistical modeling to compare the relative quality of different models. The AIC evaluates the trade-off between the goodness of fit of the model and its complexity. 
+
+The AIC is calculated based on the likelihood function of the model and the number of parameters used in the model. It penalizes models with more parameters, thereby discouraging overfitting. The AIC value for a model is relative, meaning it is useful for comparing different models rather than providing an absolute measure of model fit.
+
+Lower AIC values indicate better-performing models, as they achieve a good balance between model fit and complexity. When comparing models, the model with the lowest AIC is typically preferred, as it is deemed to provide the best balance between explanatory power and parsimony.
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/811792f8-8e55-4002-82f7-df4120f29227)
+
+The model with the best balanced model is that which contails all the explanatory variables.
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/24bbcda0-9054-4e33-b600-7c2e6ca85502)
 
 
 
