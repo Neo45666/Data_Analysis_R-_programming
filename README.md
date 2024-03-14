@@ -83,20 +83,69 @@ Exploring rented e-scooter count over time
 
 ![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/98bc28de-9fd5-48a8-b410-0c8dc4475fbe)
 
+Exploration showing the box plot 
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/4de6f213-9353-4449-abf0-ad34100c6ed5)
+
+Interpretaion of the exploratory graphs.
+
+Histogram: The histogram illustrates the distribution of rented e-scooters, showcasing the frequency of rentals across different hours of the day. Additionally, the graph exhibits a right-skewed distribution, providing insight into the shape of the dataset.
+
+Barplot: The barplot displays the distribution of e-scooter rentals throughout the day, indicating that the earliest rentals occur before 5 AM, while the peak rental hour is observed around the 10th hour of the day.
+
+Scatter plot: The scatter plot reveals a positive linear relationship between the count of rented e-scooters and the hour of the day. Specifically, as the time progresses, there is an observable increase in the number of e-scooters rented. Conversely, there exists a negative relationship between the dew point temperature and the count of rented e-scooters, with higher dew point temperatures correlating with increased e-scooter rental counts.
+
+Line Graph:
+The line graph depicts the pattern of e-scooter rentals throughout the day. It reveals a positive trend wherein the number of rentals increases as the hours progress, reaching a peak before declining.
+
+Boxplot:
+The boxplot illustrates the range of values for rented e-scooters. The median, representing the middle of the box, is approximately 1000 rentals, closely aligning with the average rentals. Additionally, it delineates the interquartile range, with the first quartile ranging from 600 to the third quartile of 1500 rentals.
+
+## Illustrating the Linear Correlation
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/a6eaa125-2cb9-425b-9a1a-44102f2ec368)
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/0084fc71-b274-47d3-9721-38349cec5b12)
 
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/c254cfe6-7aaa-482e-be5e-63f2668762c1)
+
+The variable with the most relevant linear correlation with rented e-scooter is “Hour”. It returned a value of 0.49. This shows a positive linear correlation.
+
+## Bivariate Relationship 
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/24de6b89-5257-479a-a78a-02db3bdb6585)
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/3b71f3ce-cf80-43a3-932d-0800e7d34d1c)
+
+Model performance evaluation and assumptions checking
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/63c1fbd8-bfd2-4f49-b740-934c907855e5)
+
+The coefficient of determination, denoted as the multiple R-squared, is calculated to be 0.24. This implies that the model accounts for 24% of the variance observed in the rented e-scooter count. Additionally, the statistical significance of the variable "Hour" suggests that it contributes significantly to explaining the variability in the e-scooter count.
+
+Regarding the model's performance, with an R-squared value of 0.24, it indicates that the model explains a moderate proportion of the variance in the e-scooter count. However, this leaves approximately 76% of the variance unexplained, indicating room for improvement. As for the validity of model assumptions, further diagnostics such as residual analysis and tests for normality, linearity, and homoscedasticity should be conducted to assess whether the model meets the underlying assumptions of linear regression. Subsequently, appropriate adjustments or transformations may be necessary to improve the model's fit and validity.
+
+Further investigation
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/5d07fcac-8b97-4c52-8cce-aa604e9e3e94)
+
+Linearity: The plot exhibits a reasonably linear relationship between the variables.
+Homoscedasticity: The reference line appears relatively flat and horizontal, suggesting consistent variance across the range of predictor values.
+Normality of Residuals: The distribution of residuals appears to approximate a normal shape.
+
+Based on these observations, we can infer that the assumptions underlying linear regression have not been significantly violated.
 
 
+## Boostraping to obtain a 95% confidence interval of the estimate of the slope
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/af77c9d6-732d-4048-a86e-680ea803c8f5)
 
+The coefficient of determination, denoted as the multiple R-squared, is calculated to be 0.35. This indicates that the model accounts for 35% of the variance observed in the rented e-scooter count. Additionally, the statistical significance of the variables "Hour" and dew point temperature suggests that they both contribute significantly to explaining the variability in the e-scooter count.
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/6910af53-b1ff-474d-bfa2-14739784e86b)
 
-
-
-
-
-
-
+Evaluate model performance for 
 
 
 
