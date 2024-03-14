@@ -136,21 +136,22 @@ Normality of Residuals: The distribution of residuals appears to approximate a n
 
 Based on these observations, we can infer that the assumptions underlying linear regression have not been significantly violated.
 
-
-## Boostraping to obtain a 95% confidence interval of the estimate of the slope
-
 ![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/af77c9d6-732d-4048-a86e-680ea803c8f5)
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/a71c602e-6c6c-47c7-be00-3cc182e11878)
 
 The coefficient of determination, denoted as the multiple R-squared, is calculated to be 0.35. This indicates that the model accounts for 35% of the variance observed in the rented e-scooter count. Additionally, the statistical significance of the variables "Hour" and dew point temperature suggests that they both contribute significantly to explaining the variability in the e-scooter count.
 
-![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/6910af53-b1ff-474d-bfa2-14739784e86b)
 
-Evaluate model performance for 
+## Evaluate model performance.
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/ac489ef0-614d-4bb3-95fb-c2fa7130466a)
 
+The above graphs shows that this model validates all the assumptions of multiple regression.
 
+## Boostraping to obtain a 95% confidence interval of the estimate of the slope
 
-
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/3ee7c966-1996-4099-be83-e3b21db1d3c2)
 
 
 
