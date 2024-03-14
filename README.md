@@ -11,3 +11,5 @@ The data that has been collected from the city in Japan, is to be analysed to po
 
 The data to be used is titled JapanEScooterData.csv
 Examine summer days, considering only daylight hours characterized by solar radiation (MJ/m2) values greater than 0 during operational periods. Collected a sample of the subset of data for analysis, employed a number as a seed to randomly select 500 observations for this analyses. Eliminated any redundant variables where only one value remains. This refined subset of data was utilized for this analysis.
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/fdb9a089-d134-4a2c-9ac9-1cd319ac815e)
