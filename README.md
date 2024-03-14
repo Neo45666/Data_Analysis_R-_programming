@@ -215,4 +215,4 @@ Collinearity: There exists a linear relationship among the explanatory variables
 Influential observations: The points align along a line.
 Normality of Residuals: The graphs satisfy the assumptions, with points aligning along a line and the distribution graph indicating normality.
 
-## Report outlining findings and analyses 
+
