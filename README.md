@@ -9,10 +9,5 @@ The data that has been collected from the city in Japan, is to be analysed to po
 
 ## About the data
 
-The data to be used is in the file on Blackboard titled JapanEScooterData.csv
-Look at summer days, and only use daylight hours which is defined by having solar radiation (MJ/m2) values greater than 0 when the scheme was functioning.
-After you have completed the instructions above for selecting the subgroup of the data to analyse, use your studentID as a seed to then select a random sample of 500 observations to use for your analyses.
-You should remove any redundant variables (where only one value remains in that variable).
-This subset of the data is what you should use for the rest of this assessment. You must only analyse the specified data. No other data should be considered for this assessment.
-
-
+The data to be used is titled JapanEScooterData.csv
+Examine summer days, considering only daylight hours characterized by solar radiation (MJ/m2) values greater than 0 during operational periods. Collected a sample of the subset of data for analysis, employed a number as a seed to randomly select 500 observations for this analyses. Eliminated any redundant variables where only one value remains. This refined subset of data was utilized for this analysis.
