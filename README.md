@@ -191,7 +191,28 @@ Lower AIC values indicate better-performing models, as they achieve a good balan
 The model with the best balanced model is that which contails all the explanatory variables.
 
 ![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/24bbcda0-9054-4e33-b600-7c2e6ca85502)
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/de4ffed2-0797-48db-96b3-44fe0d395e24)
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/9bb7ea74-0fda-4770-a8ad-5f0d356592c5)
 
+The stepwise method of model selection, employing the AIC criterion, was utilized to identify the model with the lowest AIC, indicative of the best fit. Subsequent to this selection, model simplification becomes necessary to eliminate redundant variables that do not significantly contribute to the variation observed in e-scooter rentals. This process of simplification serves to reduce model complexity while enhancing accuracy.
 
+## Evaluating model performance
 
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/e7994351-4785-4c1a-ba81-5ea8eb8b8d0a)
 
+The aforementioned model indicates that each independent variable demonstrates statistical significance. Nevertheless, the R-squared value remains unchanged compared to the model encompassing all variables.
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/f8ad9d00-f170-4b63-ac57-d050b1760fe5)
+
+The model above indicates that all independent variables exhibit statistical significance. Nonetheless, the R-squared value remains consistent compared to the model inclusive of all variables.
+
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/370f99fe-7252-4bc5-a13e-9dbea6f63a85)
+![image](https://github.com/Neo45666/Data_Analysis_R-_programming/assets/98716773/683f7557-bfa8-4988-9bab-d30e209fea16)
+
+Linearity: The graph displays a linear relationship.
+Homogeneity of Variance: The reference line appears flat and horizontal, indicating consistent variance.
+Collinearity: There exists a linear relationship among the explanatory variables.
+Influential observations: The points align along a line.
+Normality of Residuals: The graphs satisfy the assumptions, with points aligning along a line and the distribution graph indicating normality.
+
+## Report outlining findings and analyses 
