@@ -1,0 +1,18 @@
+Report Outlining findings of the e-scooter research
+
+Introduction
+What factors besides the obvious ones might influence the demand for e-scooter rentals in the summer? Could things like weather or visibility affect how many people want to rent e-scooters during the summer months? To answer these questions, we looked at different factors that could affect e-scooter demand. We focused on things like wind speed, temperature, and visibility, specifically during the summer in the United Kingdom. The main goal of this report is to explain what we found out about these factors and how they might impact the demand for e-scooters.
+
+Methodology
+We started by examining a dataset with over 1300 observations and 13 different factors. Ten of these factors were numerical, while three were categorical. We narrowed down this data using specific criteria and ended up with a sample of 500 observations. We then looked for relationships within this data, finding both positive and negative correlations. The strongest relationship we found was between the time of day (Hour) and the number of e-scooters rented. We also used a linear regression model to predict e-scooter rentals based on the time of day. We found that the time of day had a 24% impact on e-scooter rentals, with demand increasing as the day progresses. We also considered additional factors like dew point temperature, rainfall, and distance by creating a multiple regression model. This model suggested that these factors together could account for up to a 45% change in e-scooter rentals. We then simplified this model to focus on the most important variables and exclude those that didn't have much impact. Our results showed that this simplified model was the best fit.
+
+Other Considerations
+We didn't include certain categorical variables, like the date or whether the scheme was functioning, in our analysis. These factors didn't seem to affect the variation in e-scooter rentals.
+
+Recommendation
+Based on our findings, we suggest that e-scooter rentals are likely to increase during summer days, especially during daylight hours. This increase in demand could lead to fewer people using cars, making the streets cleaner, quieter, and safer, as seen in Japan. To get a better understanding of how e-scooters are used, we recommend collecting data at different times of the day and from pedestrians as well. While e-scooters may not be the perfect solution for reducing CO2 emissions, they could help reduce short car trips in cities, especially when combined with cycling and walking.
+
+Reference. https://www.lombard.co.uk/insights/sustainability/climate/the-rise-of-the-e-scooter.html
+
+
+
